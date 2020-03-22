@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Inf024Project</string>
+    <string name="mercedes_logo">mercedes logo</string>
+    <string name="mercedes_text">Mercedes</string>
+    <string name="buy_go">BUY-GO</string>
+    <string name="en_iyisi_ya_da_hiç">En iyisi ya da hiç.</string>
+    <string name="ya_da">ya da</string>
+    <string name="kayit_ol">Kayıt ol.</string>
+    <string name="facebook_giris">Facebook ile devam et.</string>
+    <string name="google_giris">Google ile devam et.</string>
+    <string name="kayit_kosul">Kayıt olarak veya giriş yaparak Şartlar ve Koşullar ve Gizlilik Politikasını kabul etmiş olursunuz.</string>
 </resources>
