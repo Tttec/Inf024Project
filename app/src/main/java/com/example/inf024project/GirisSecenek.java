@@ -31,7 +31,7 @@ public class GirisSecenek extends AppCompatActivity implements View.OnClickListe
             case (R.id.kayit):
                 //openKayit();
                 break;
-            case (R.id.facebook): // facebook ile bağlan butonuna tıklama
+            case(R.id.facebook): // facebook ile bağlan butonuna tıklama
                 break;
             case(R.id.google): // google ile bağlan butonuna tıklama
                 break;
