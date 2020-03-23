@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/kaydol"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background"
+    >
+
+
+    <TextView
+        android:id="@+id/kaydol_tw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/corporate"
+        android:text="@string/kay_t_ol"
+        android:textAlignment="center"
+        android:textColor="@color/beyaz"
+        android:textSize="50sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/Ad_btn"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/kaydol_button"
+        android:text="@string/ad"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kaydol_tw" />
+
+    <Button
+        android:id="@+id/Email_btn"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/kaydol_button"
+        android:text="@string/e_mail"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Soyad_btn" />
+
+    <Button
+        android:id="@+id/Sifre_btn"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/kaydol_button"
+        android:text="@string/sifre"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email_btn" />
+
+    <Button
+        android:id="@+id/Soyad_btn"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/kaydol_button"
+        android:text="@string/soyad"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ad_btn" />
+
+    <Button
+        android:id="@+id/kaydol_btn"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:background="@drawable/kaydol_button"
+        android:text="@string/kay_t_ol"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sifre_btn"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/politika_tw"
+        android:text="@string/kay_t_olarak_veya_giri_yaparak_artlar_ve_ko_ullar_ve_gizlilik_politikas_n_kabul_etmi_olursunuz"
+        android:textColor="@color/beyaz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kaydol_btn"
+        app:layout_constraintVertical_bias="0.805" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

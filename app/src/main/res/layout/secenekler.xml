@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buy_btn"
+            android:layout_width="305sp"
+            android:layout_height="225sp"
+            android:background="@drawable/kaydol_button"
+            android:drawableStart="@drawable/buy"
+            android:drawableLeft="@drawable/buy"
+            android:text="@string/buy"
+            android:textColor="@color/beyaz"
+            android:textSize="50sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:drawablePadding="-10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.197"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp" />
+
+        <Button
+            android:id="@+id/go_btn"
+            style="@style/TextColor"
+            android:layout_width="305dp"
+            android:layout_height="225dp"
+            android:background="@drawable/kaydol_button"
+            android:drawableLeft="@drawable/car"
+            android:text="@string/go"
+            android:textColor="@color/beyaz"
+            android:textSize="50sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buy_btn"
+            app:layout_constraintVertical_bias="0.287"
+            android:drawableStart="@drawable/car"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</LinearLayout>
