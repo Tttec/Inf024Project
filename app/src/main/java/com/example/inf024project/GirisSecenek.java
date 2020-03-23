@@ -39,12 +39,14 @@ public class GirisSecenek extends AppCompatActivity implements View.OnClickListe
 
 
         }
-       /* public void openKayit(){
-            Intent intent = new Intent(this, Kayit.class);
-            startActivity(intent);
+        kayit.setOnClickListener(new View.OnClickListener() { // Kayıt ol butonuna basıldıgında Kaydol Sayfasına gider
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(GirisSecenek.this,Kaydol.class);
+                startActivity(intent);
+            }
+        });
 
-        }
 
-        */
     }
 }
