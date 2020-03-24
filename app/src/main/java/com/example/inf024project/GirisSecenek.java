@@ -39,6 +39,7 @@ public class GirisSecenek extends AppCompatActivity implements View.OnClickListe
 
 
         }
+        //Kayıt ol butonuna basıldıgı zaman kayıt ol sayfasını acar
         kayit.setOnClickListener(new View.OnClickListener() { // Kayıt ol butonuna basıldıgında Kaydol Sayfasına gider
             @Override
             public void onClick(View v) {

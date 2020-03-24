@@ -17,90 +17,122 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:fontFamily="@font/corporate"
-        android:text="@string/kay_t_ol"
+        android:text="@string/kayit_ol_kaydol"
         android:textAlignment="center"
         android:textColor="@color/beyaz"
         android:textSize="50sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 
-    <Button
-        android:id="@+id/Ad_btn"
+    <EditText
+        android:id="@+id/Soyad_et"
         android:layout_width="280dp"
         android:layout_height="30dp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/kaydol_button"
-        android:text="@string/ad"
+        android:fontFamily="@font/corporate"
+        android:gravity="center"
+        android:hint="@string/soyad"
         android:textAllCaps="false"
+        android:textColorHint="@color/siyah"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ad_et" />
+
+    <EditText
+        android:id="@+id/Ad_et"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/kaydol_button"
+        android:fontFamily="@font/corporate"
+        android:gravity="center"
+        android:hint="@string/ad"
+        android:textAllCaps="false"
+        android:textColorHint="@color/siyah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kaydol_tw" />
 
-    <Button
-        android:id="@+id/Email_btn"
+    <EditText
+        android:id="@+id/Email_et"
         android:layout_width="280dp"
         android:layout_height="30dp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/kaydol_button"
-        android:text="@string/e_mail"
+        android:fontFamily="@font/corporate"
+        android:gravity="center"
+        android:hint="@string/email"
         android:textAllCaps="false"
+        android:textColorHint="@color/siyah"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Soyad_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/Soyad_et" />
 
-    <Button
-        android:id="@+id/Sifre_btn"
+    <EditText
+        android:id="@+id/Sifre_et"
         android:layout_width="280dp"
         android:layout_height="30dp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/kaydol_button"
-        android:text="@string/sifre"
+        android:fontFamily="@font/corporate"
+        android:gravity="center"
+        android:hint="@string/sifre"
         android:textAllCaps="false"
+        android:textColorHint="@color/siyah"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Email_btn" />
-
-    <Button
-        android:id="@+id/Soyad_btn"
-        android:layout_width="280dp"
-        android:layout_height="30dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/kaydol_button"
-        android:text="@string/soyad"
-        android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Ad_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/Email_et" />
 
     <Button
         android:id="@+id/kaydol_btn"
         android:layout_width="144dp"
         android:layout_height="50dp"
         android:background="@drawable/kaydol_button"
-        android:text="@string/kay_t_ol"
+        android:fontFamily="@font/corporate"
+        android:text="@string/kayit_ol_kaydol"
         android:textAllCaps="false"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Sifre_btn"
-        app:layout_constraintVertical_bias="0.189" />
+        app:layout_constraintTop_toBottomOf="@+id/Sifre_et"
+        app:layout_constraintVertical_bias="0.217" />
 
     <TextView
+        android:id="@+id/politika_tw"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:id="@+id/politika_tw"
-        android:text="@string/kay_t_olarak_veya_giri_yaparak_artlar_ve_ko_ullar_ve_gizlilik_politikas_n_kabul_etmi_olursunuz"
+        android:text="@string/kayit_kosul"
+        android:fontFamily="@font/corporate"
         android:textColor="@color/beyaz"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kaydol_btn"
         app:layout_constraintVertical_bias="0.805" />
+
+    <TextView
+        android:id="@+id/görüntüleme"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/kaydol_button"
+        android:textColor="@color/beyaz"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

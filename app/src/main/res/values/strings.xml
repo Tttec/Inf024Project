@@ -9,11 +9,12 @@
     <string name="facebook_giris">Facebook ile devam et.</string>
     <string name="google_giris">Google ile devam et.</string>
     <string name="kayit_kosul">Kayıt olarak veya giriş yaparak Şartlar ve Koşullar ve Gizlilik Politikasını kabul etmiş olursunuz.</string>
-    <string name="e_mail">E-Mail</string>
-    <string name="soyad">Soyad</string>
+    <string name="kayit_ol_kaydol">Kayıt ol </string>
     <string name="ad">Ad</string>
+    <string name="soyad">Soyad</string>
+    <string name="email">E-Mail</string>
     <string name="sifre">Sifre</string>
-    <string name="kay_t_olarak_veya_giri_yaparak_artlar_ve_ko_ullar_ve_gizlilik_politikas_n_kabul_etmi_olursunuz">Kayıt olarak veya Giriş yaparak Şartlar ve Koşullar ve Gizlilik Politikasını kabul etmiş olursunuz</string>
     <string name="buy">BUY</string>
     <string name="go">GO</string>
+
 </resources>
