@@ -63,7 +63,7 @@
         android:layout_width="280dp"
         android:layout_height="30dp"
         android:layout_gravity="center"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/kaydol_button"
         android:fontFamily="@font/corporate"
         android:gravity="center"
@@ -120,19 +120,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kaydol_btn"
         app:layout_constraintVertical_bias="0.805" />
-
-    <TextView
-        android:id="@+id/görüntüleme"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginBottom="144dp"
-        android:background="@drawable/kaydol_button"
-        android:textColor="@color/beyaz"
-        android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

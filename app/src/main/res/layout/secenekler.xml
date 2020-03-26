@@ -48,7 +48,6 @@
             android:paddingRight="10dp"
             android:text="@string/go"
             android:fontFamily="@font/corporate"
-            android:textColor="@color/beyaz"
             android:textSize="50sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
