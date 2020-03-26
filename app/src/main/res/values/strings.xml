@@ -16,5 +16,7 @@
     <string name="sifre">Sifre</string>
     <string name="buy">BUY</string>
     <string name="go">GO</string>
+    <string name="sifregirisi">Şifre</string>
+    <string name="kullanici_girisi_yap">Giriş Yap</string>
 
 </resources>

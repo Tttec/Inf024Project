@@ -40,7 +40,7 @@ public class Kaydol extends AppCompatActivity {
                 alert.setPositiveButton("Tamam", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent=new Intent(Kaydol.this,Secenekler.class);
+                        Intent intent=new Intent(Kaydol.this,KullaniciGirisi.class);
                         startActivity(intent);
 
                     }
