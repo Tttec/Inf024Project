@@ -28,7 +28,6 @@ public class Kaydol extends AppCompatActivity {
         sifre=findViewById(R.id.Sifre_et);
         kaydol_btn=findViewById(R.id.kaydol_btn);
         kaydol=findViewById(R.id.kaydol_tw);
-        politika=findViewById(R.id.politika_tw);
 
 
         kaydol_btn.setOnClickListener(new View.OnClickListener() {

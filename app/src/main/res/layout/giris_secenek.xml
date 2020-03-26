@@ -39,7 +39,7 @@
             app:srcCompat="@drawable/mercedes_giris_logo" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/en_iyisi"
             style="@style/TextColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,18 +54,37 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
+
         <Button
             android:id="@+id/kayit"
             style="@style/TextColor"
-            android:layout_width="320dp"
+            android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
             android:background="@drawable/button"
             android:text="@string/kayit_ol"
             android:textAllCaps="false"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+            app:layout_constraintTop_toBottomOf="@+id/en_iyisi" />
+
+        <Button
+            android:id="@+id/giris_yap_giris_secenekler"
+            style="@style/TextColor"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp"
+            android:background="@drawable/button"
+            android:text="@string/kullanici_girisi_yap"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/en_iyisi" />
 
         <TextView
             android:id="@+id/textView8"
@@ -97,7 +116,9 @@
             android:textAllCaps="false"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            android:drawableStart="@drawable/facebook"
+            android:paddingStart="12dp" />
 
         <Space
             android:id="@+id/space"
@@ -107,23 +128,29 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/facebook" />
 
-        <Button
-            android:id="@+id/google"
-            style="@style/TextColor"
-            android:layout_width="320dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:background="@drawable/button"
-            android:drawableStart="@drawable/google"
-            android:drawableLeft="@drawable/google"
-            android:drawablePadding="-110dp"
-            android:paddingLeft="12dp"
-            android:text="@string/google_giris"
-            android:textAllCaps="false"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/space" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/textView8"
+            app:layout_constraintEnd_toStartOf="@+id/giris_yap_giris_secenekler"
+            app:layout_constraintStart_toEndOf="@+id/kayit"
+            app:layout_constraintTop_toBottomOf="@+id/en_iyisi" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/google"
+        style="@style/TextColor"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/google"
+        android:drawableLeft="@drawable/google"
+        android:drawablePadding="-110dp"
+        android:paddingStart="12dp"
+        android:paddingLeft="16dp"
+        android:text="@string/google_giris"
+        android:textAllCaps="false" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

@@ -20,7 +20,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="423dp"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
         android:foregroundGravity="center">
 
@@ -39,7 +39,7 @@
             app:srcCompat="@drawable/mercedes_giris_logo" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/en_iyisi"
             style="@style/TextColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,7 +49,6 @@
             android:text="@string/en_iyisi_ya_da_hiç"
             android:textSize="20sp"
             app:fontFamily="@font/corporate"
-            app:layout_constraintBottom_toTopOf="@+id/kayit"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -59,51 +58,53 @@
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:background="@color/gri"
+            android:layout_marginTop="8dp"
+            android:autofillHints=""
+            android:background="@drawable/kaydol_button"
             android:ems="10"
             android:gravity="center"
-            android:hint="E-Mail"
+            android:hint="@string/e_mail"
             android:inputType="textEmailAddress"
             android:paddingBottom="10dp"
-            app:layout_constraintBottom_toTopOf="@+id/giris_sifre"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView7"
-            app:layout_constraintVertical_bias="0.612" />
+            app:layout_constraintTop_toBottomOf="@+id/en_iyisi" />
 
         <EditText
             android:id="@+id/giris_sifre"
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
-            android:background="@color/gri"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:background="@drawable/kaydol_button"
             android:ems="10"
             android:gravity="center"
-            android:hint="Şifre"
+            android:hint="@string/sifre"
             android:inputType="textPassword"
             android:paddingBottom="10dp"
-            app:layout_constraintBottom_toTopOf="@+id/giris_yap"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/giris_email" />
 
         <Button
-            android:id="@+id/giris_yap"
+            android:id="@+id/giris_yap_giris_secenekler"
+            style="@style/TextColor"
             android:layout_width="200dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/button"
-            android:backgroundTint="@color/beyaz"
-            android:fontFamily="@font/corporate"
-            android:paddingBottom="10dp"
-            android:text="Giriş yap"
+            android:background="@drawable/button_2"
+            android:text="@string/kayit_ol"
+            android:textAllCaps="false"
+            android:textColor="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/giris_sifre"
+            app:layout_constraintVertical_bias="0.32" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
