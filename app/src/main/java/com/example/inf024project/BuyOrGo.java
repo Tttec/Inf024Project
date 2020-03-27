@@ -18,14 +18,14 @@ public class BuyOrGo extends AppCompatActivity {
         go=findViewById(R.id.go_btn);
 
         // Buy butonuna basılınca yapılacak işler
-
+        /*
         buy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(BuyOrGo.this,buy.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
         // Go butonuna basınca yapılacak isler
         /*
