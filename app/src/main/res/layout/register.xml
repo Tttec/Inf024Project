@@ -12,99 +12,100 @@
 
 
     <TextView
-        android:id="@+id/kaydol_tw"
+        android:id="@+id/register_tw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/corporate"
-        android:text="@string/kayit_ol_kaydol"
+        android:text="@string/register"
         android:textAlignment="center"
-        android:textColor="@color/beyaz"
+        android:textColor="@color/white"
         android:textSize="50sp"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        android:gravity="center_horizontal" />
 
     <EditText
-        android:id="@+id/Ad_et"
+        android:id="@+id/name_edit"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_marginTop="60dp"
-        android:background="@drawable/kaydol_button"
+        android:background="@drawable/register_btn"
         android:fontFamily="@font/corporate"
         android:gravity="center"
-        android:hint="@string/ad"
+        android:hint="@string/name"
         android:textAllCaps="false"
-        android:textColorHint="@color/siyah"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kaydol_tw" />
+        app:layout_constraintTop_toBottomOf="@+id/register_tw" />
 
     <EditText
-        android:id="@+id/Soyad_et"
+        android:id="@+id/surname_edit"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_marginTop="28dp"
-        android:background="@drawable/kaydol_button"
+        android:background="@drawable/register_btn"
         android:fontFamily="@font/corporate"
         android:gravity="center"
-        android:hint="@string/soyad"
+        android:hint="@string/surname"
         android:textAllCaps="false"
-        android:textColorHint="@color/siyah"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Ad_et" />
+        app:layout_constraintTop_toBottomOf="@+id/name_edit" />
 
     <EditText
-        android:id="@+id/Email_et"
+        android:id="@+id/email_edit"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_marginTop="28dp"
-        android:background="@drawable/kaydol_button"
+        android:background="@drawable/register_btn"
         android:fontFamily="@font/corporate"
         android:gravity="center"
         android:hint="@string/email"
         android:textAllCaps="false"
-        android:textColorHint="@color/siyah"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Soyad_et" />
+        app:layout_constraintTop_toBottomOf="@+id/surname_edit" />
 
     <EditText
-        android:id="@+id/Sifre_et"
+        android:id="@+id/pass_edit"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_marginTop="28dp"
-        android:background="@drawable/kaydol_button"
+        android:background="@drawable/register_btn"
         android:fontFamily="@font/corporate"
         android:gravity="center"
-        android:hint="@string/sifre"
+        android:hint="@string/password"
         android:textAllCaps="false"
-        android:textColorHint="@color/siyah"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Email_et" />
+        app:layout_constraintTop_toBottomOf="@+id/email_edit" />
 
     <Button
-        android:id="@+id/kaydol_btn"
+        android:id="@+id/register_btn"
         android:layout_width="144dp"
         android:layout_height="50dp"
-        android:background="@drawable/kaydol_button"
+        android:background="@drawable/register_btn"
         android:fontFamily="@font/corporate"
-        android:text="@string/kayit_ol_kaydol"
+        android:text="@string/register"
         android:textAllCaps="false"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Sifre_et"
+        app:layout_constraintTop_toBottomOf="@+id/pass_edit"
         app:layout_constraintVertical_bias="0.217" />
 
     <TextView
@@ -116,7 +117,7 @@
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
         android:paddingBottom="7dp"
-        android:text="@string/kayit_kosul"
+        android:text="@string/register_requirement"
         android:textSize="13sp"
         app:fontFamily="@font/corporate"
         app:layout_constraintBottom_toBottomOf="parent"

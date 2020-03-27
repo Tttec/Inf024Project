@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/giris_secenek"
+    android:background="@drawable/background"
     android:orientation="vertical">
 
     <TextView
@@ -36,27 +36,27 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/mercedes_giris_logo" />
+            app:srcCompat="@drawable/mercedes_login_logo" />
 
         <TextView
-            android:id="@+id/en_iyisi"
+            android:id="@+id/text_under_the_logo"
             style="@style/TextColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:paddingTop="10dp"
             android:paddingBottom="45dp"
-            android:text="@string/en_iyisi_ya_da_hiç"
+            android:text="@string/text_under_the_logo"
             android:textSize="20sp"
             app:fontFamily="@font/corporate"
-            app:layout_constraintBottom_toTopOf="@+id/kayit"
+            app:layout_constraintBottom_toTopOf="@+id/register"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
 
         <Button
-            android:id="@+id/kayit"
+            android:id="@+id/register"
             style="@style/TextColor"
             android:layout_width="150dp"
             android:layout_height="50dp"
@@ -64,14 +64,14 @@
             android:layout_marginStart="48dp"
             android:layout_marginLeft="48dp"
             android:background="@drawable/button"
-            android:text="@string/kayit_ol"
+            android:text="@string/register"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/en_iyisi" />
+            app:layout_constraintTop_toBottomOf="@+id/text_under_the_logo" />
 
         <Button
-            android:id="@+id/giris_yap_giris_secenekler"
+            android:id="@+id/login_login_options"
             style="@style/TextColor"
             android:layout_width="150dp"
             android:layout_height="50dp"
@@ -79,12 +79,12 @@
             android:layout_marginEnd="48dp"
             android:layout_marginRight="48dp"
             android:background="@drawable/button"
-            android:text="@string/kullanici_girisi_yap"
+            android:text="@string/user_login_btn"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/textView8"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/en_iyisi" />
+            app:layout_constraintTop_toBottomOf="@+id/text_under_the_logo" />
 
         <TextView
             android:id="@+id/textView8"
@@ -94,12 +94,12 @@
             android:gravity="center"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:text="@string/ya_da"
+            android:text="@string/or"
             android:textSize="20sp"
             app:fontFamily="@font/corporate"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/kayit" />
+            app:layout_constraintTop_toBottomOf="@+id/register" />
 
         <Button
             android:id="@+id/facebook"
@@ -112,7 +112,7 @@
             android:drawableLeft="@drawable/facebook"
             android:includeFontPadding="false"
             android:paddingLeft="12dp"
-            android:text="@string/facebook_giris"
+            android:text="@string/facebook_login"
             android:textAllCaps="false"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -132,9 +132,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toTopOf="@+id/textView8"
-            app:layout_constraintEnd_toStartOf="@+id/giris_yap_giris_secenekler"
-            app:layout_constraintStart_toEndOf="@+id/kayit"
-            app:layout_constraintTop_toBottomOf="@+id/en_iyisi" />
+            app:layout_constraintEnd_toStartOf="@+id/login_login_options"
+            app:layout_constraintStart_toEndOf="@+id/register"
+            app:layout_constraintTop_toBottomOf="@+id/text_under_the_logo" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
@@ -149,7 +149,7 @@
         android:drawablePadding="-110dp"
         android:paddingStart="12dp"
         android:paddingLeft="16dp"
-        android:text="@string/google_giris"
+        android:text="@string/google_login"
         android:textAllCaps="false" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -165,7 +165,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingBottom="7dp"
-            android:text="@string/kayit_kosul"
+            android:text="@string/register_requirement"
             android:textSize="13sp"
             app:fontFamily="@font/corporate"
             app:layout_constraintBottom_toBottomOf="parent"

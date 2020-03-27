@@ -3,16 +3,15 @@ package com.example.inf024project;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
-public class Secenekler extends AppCompatActivity {
+public class BuyOrGo extends AppCompatActivity {
     Button buy,go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.secenekler);
+        setContentView(R.layout.buy_or_go);
 
         buy=findViewById(R.id.buy_btn);
         go=findViewById(R.id.go_btn);
