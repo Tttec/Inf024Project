@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+    buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.example.inf024project"
         minSdkVersion 14
@@ -10,6 +10,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
     }
     buildTypes {
         release {
