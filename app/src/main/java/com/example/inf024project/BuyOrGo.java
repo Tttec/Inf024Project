@@ -22,7 +22,7 @@ public class BuyOrGo extends AppCompatActivity {
         buy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Secenekler.this,buy.class);
+                Intent intent=new Intent(BuyOrGo.this,buy.class);
                 startActivity(intent);
             }
         });
