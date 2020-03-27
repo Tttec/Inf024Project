@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/giris_secenek"
+    android:background="@drawable/background"
     android:orientation="vertical">
 
     <TextView
@@ -36,17 +36,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/mercedes_giris_logo" />
+            app:srcCompat="@drawable/mercedes_login_logo" />
 
         <TextView
-            android:id="@+id/en_iyisi"
+            android:id="@+id/text_under_the_logo"
             style="@style/TextColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:paddingTop="10dp"
             android:paddingBottom="45dp"
-            android:text="@string/en_iyisi_ya_da_hiç"
+            android:text="@string/text_under_the_logo"
             android:textSize="20sp"
             app:fontFamily="@font/corporate"
             app:layout_constraintEnd_toEndOf="parent"
@@ -54,57 +54,52 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
         <EditText
-            android:id="@+id/giris_email"
+            android:id="@+id/login_email"
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginTop="8dp"
             android:autofillHints=""
-            android:background="@drawable/kaydol_button"
+            android:background="@drawable/register_btn"
             android:ems="10"
             android:gravity="center"
-            android:hint="@string/e_mail"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:paddingBottom="10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/en_iyisi" />
+            app:layout_constraintTop_toBottomOf="@+id/text_under_the_logo" />
 
         <EditText
-            android:id="@+id/giris_sifre"
+            android:id="@+id/login_pass"
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:autofillHints=""
-            android:background="@drawable/kaydol_button"
+            android:background="@drawable/register_btn"
             android:ems="10"
             android:gravity="center"
-            android:hint="@string/sifre"
+            android:hint="@string/password"
             android:inputType="textPassword"
-            android:paddingBottom="10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/giris_email" />
+            app:layout_constraintTop_toBottomOf="@+id/login_email" />
 
         <Button
-            android:id="@+id/giris_yap_giris_secenekler"
+            android:id="@+id/login_login_options"
             style="@style/TextColor"
             android:layout_width="200dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:background="@drawable/button_2"
-            android:text="@string/kayit_ol"
+            android:text="@string/user_login_btn"
             android:textAllCaps="false"
             android:textColor="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/giris_sifre"
-            app:layout_constraintVertical_bias="0.32" />
+            app:layout_constraintTop_toBottomOf="@+id/login_pass"
+            />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
