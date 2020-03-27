@@ -2,7 +2,6 @@ package com.example.inf024project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
@@ -22,8 +21,7 @@ public class BuyOrGo extends AppCompatActivity {
         buy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(BuyOrGo.this,buy.class);
-                startActivity(intent);
+
             }
         });*/
 
