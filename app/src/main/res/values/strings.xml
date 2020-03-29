@@ -20,6 +20,10 @@
     <string name="successful_login">Kaydınız başarıyla tamamlanmıştır.</string>
     <string name="okey">Tamam</string>
     <string name="recording">Kayıt İşlemi</string>
+    <string name="araba">Araba</string>
+    <string name="bebek">Bebek</string>
+    <string name="ev_gere_leri">Ev Gereçleri</string>
+    <string name="giyim">Giyim</string>
 
 
 </resources>
