@@ -24,6 +24,10 @@
     <string name="bebek">Bebek</string>
     <string name="ev_gere_leri">Ev Gereçleri</string>
     <string name="giyim">Giyim</string>
+    <string name="isim">isim</string>
+    <string name="ki_isel_bilgiler">kişisel Bilgiler</string>
+    <string name="adress">adress</string>
+    <string name="telefon">telefon</string>
 
 
 </resources>
