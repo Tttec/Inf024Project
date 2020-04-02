@@ -28,6 +28,8 @@
     <string name="ki_isel_bilgiler">kişisel Bilgiler</string>
     <string name="adress">adress</string>
     <string name="telefon">telefon</string>
+    <string name="bildirimler">Bildirimler</string>
+    <string name="todo">TODO</string>
 
 
 </resources>
