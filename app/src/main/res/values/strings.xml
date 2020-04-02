@@ -30,6 +30,12 @@
     <string name="telefon">telefon</string>
     <string name="bildirimler">Bildirimler</string>
     <string name="todo">TODO</string>
+    <string name="bu_f_rsat_ka_rma_ahmet_in_yeni_lan_var">Bu fırsatı kaçırma Ahmet’in yeni lanı var!</string>
+    <string name="bu_f_rsat_ka_rma_ahmet_in_yeni_ilan_var">Bu fırsatı kaçırma Ahmet’in yeni ilanı var!</string>
+    <string name="test">test</string>
+    <string name="g_z_at">Göz at</string>
+    <string name="_02_april">02 April</string>
+    <string name="_03_april">03 April</string>
 
 
 </resources>
