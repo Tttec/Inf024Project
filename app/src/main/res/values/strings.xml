@@ -36,6 +36,10 @@
     <string name="g_z_at">Göz at</string>
     <string name="_02_april">02 April</string>
     <string name="_03_april">03 April</string>
-
-
+    <string name="product_details">ilan detayı</string>
+    <string name="titel">BAŞLIK</string>
+    <string name="price">FİYAT</string>
+    <string name="status">DURUM</string>
+    <string name="define">TANIM</string>
+    <string name="publish">YAYINLA</string>
 </resources>
