@@ -10,6 +10,7 @@ public class HomePageOfBuyApp extends AppCompatActivity {
 
     private Button profile_btn;
     private Button bell_btn ;
+    private Button camera_btn;
 
 
     @Override
@@ -33,6 +34,15 @@ public class HomePageOfBuyApp extends AppCompatActivity {
                 openNotificationPage();
             }
         });
+
+        //Activate notifications button
+        camera_btn = (Button) findViewById(R.id.camera_btn);
+        camera_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openProductDetailsPage();
+            }
+        });
     }
     public void openProfilepage(){
         Intent intent = new Intent(this, ProfilePage.class );
@@ -41,6 +51,10 @@ public class HomePageOfBuyApp extends AppCompatActivity {
 
     public void openNotificationPage(){
         Intent intent = new Intent(this, NotificationPage.class);
+        startActivity(intent);
+    }
+    public void openProductDetailsPage(){
+        Intent intent = new Intent(this, ProductDetails.class);
         startActivity(intent);
     }
 }
