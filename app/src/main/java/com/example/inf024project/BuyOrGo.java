@@ -52,3 +52,4 @@ public class BuyOrGo extends AppCompatActivity implements View.OnClickListener{
         startActivity(intent);
     }
 }
+//try to add things
