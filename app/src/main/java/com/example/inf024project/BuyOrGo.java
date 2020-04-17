@@ -19,6 +19,7 @@ public class BuyOrGo extends AppCompatActivity implements View.OnClickListener{
         go = findViewById(R.id.go_btn);
         buy.setOnClickListener(this);
         go.setOnClickListener(this);
+        System.out.println("Hakan tarafından branch olusturuldu");
     }
     public void onClick(View v){
         switch (v.getId()){
@@ -46,6 +47,7 @@ public class BuyOrGo extends AppCompatActivity implements View.OnClickListener{
 
             }
         });*/
+
 
     public void clickBuy_btn(){
         Intent intent = new Intent(this,HomePageOfBuyApp.class);
