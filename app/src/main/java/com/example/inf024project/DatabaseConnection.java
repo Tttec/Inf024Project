@@ -58,11 +58,14 @@ public class DatabaseConnection extends AsyncTask<String,Void,String> {
                 bufferedReader.close();
                 inputStream.close();
                 httpURLConnection.disconnect();
+                System.out.println(result);
                 return result;
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
+                System.out.println("deneme");
+
             }
         }
         return null;
